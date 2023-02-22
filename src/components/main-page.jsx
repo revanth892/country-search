@@ -1,6 +1,7 @@
 import React from "react";
 import { useEffect,useState } from "react";
 import axios from "axios";
+import Header from "./header";
 const url="https://restcountries.com/v2/all";
 
 const Mainpage=()=>
@@ -16,7 +17,7 @@ const Mainpage=()=>
     console.log(data);
     return(
         <>
-        <p>this is mainpage</p>
+        <Header />
         </>
     )
 }
