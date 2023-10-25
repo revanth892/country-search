@@ -1,11 +1,9 @@
 import React from "react";
-import Mainpage from "./components/main-page";
+import Topsearchbar from "./Components.jsx/Topsearchbar";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <Mainpage />
-      </header>
+    <div>
+      <Topsearchbar/>
     </div>
   );
 }
